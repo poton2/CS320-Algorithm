@@ -33,8 +33,6 @@ n Otherwise it is 0
 First algorithm implements this as a loop (quadratic time
 per row)
 
-# PA2 Huffman encoding algorithm 
-
 ### naive
 
 It takes the name of a file as input and it returns a Huffman code for the letters in the file, in the form of a dict mapping from letters to a binary code as a string. 
@@ -49,7 +47,7 @@ Change the
 existential ∃ to universal ∀ and use negation. Exploit a
 running max.
 
-
+# PA2 Huffman encoding algorithm 
 
 For example, when given the example text file provided (example.txt), the method huffman_letter_codes_from_file_contents might return the following dictionary:
 

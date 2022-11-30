@@ -46,3 +46,7 @@ Using these Huffman encodings, the file example.txt_encoded would contain:
 Then decoding, we should recover the original message in example.txt. That is, the file example.txt_encoded_decoded would contain:
 
 **Hello CS 320 students. Winter is comming!**
+
+# PA3 Counting Inversion 
+
+The objective of PA3 is to create a program that counts inversions. CountInv code is based on merge sort and must run in O(n log n) time, where n is the input size.
